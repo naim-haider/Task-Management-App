@@ -27,6 +27,10 @@ A full-stack **Task Management System** with user authentication, task CRUD oper
 
 - GitHub Link = https://github.com/naim-haider/Task-Management-App
 
+### Check out the Project Live
+
+- Link = https://task-management-app-frontend-nine.vercel.app/
+
 ---
 
 ## 📦 Features
