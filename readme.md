@@ -23,6 +23,10 @@ A full-stack **Task Management System** with user authentication, task CRUD oper
 - Tailwind CSS for styling
 - LocalStorage for auth and task persistence
 
+### Clone Project
+
+- GitHub Link = https://github.com/naim-haider/Task-Management-App
+
 ---
 
 ## 📦 Features
