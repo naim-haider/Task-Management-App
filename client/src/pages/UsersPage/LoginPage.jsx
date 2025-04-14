@@ -110,27 +110,6 @@ function Login() {
           </form>
         </div>
       </div>
-
-      {/*  */}
-      <form
-        onSubmit={handleSubmit}
-        className="max-w-sm mx-auto mt-20 space-y-4"
-      >
-        <input
-          placeholder="Email"
-          value={form.email}
-          onChange={(e) => setForm({ ...form, email: e.target.value })}
-          className="w-full border p-2"
-        />
-        <input
-          placeholder="Password"
-          type="password"
-          value={form.password}
-          onChange={(e) => setForm({ ...form, password: e.target.value })}
-          className="w-full border p-2"
-        />
-        <button className="bg-blue-500 text-white w-full py-2">Login</button>
-      </form>
     </>
   );
 }

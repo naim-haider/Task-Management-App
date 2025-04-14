@@ -24,7 +24,6 @@ function Register() {
 
   return (
     <>
-      {/*  */}
       <div className="h-screen md:flex">
         <div className="relative overflow-hidden md:flex w-1/2 bg-gradient-to-tr from-blue-800 to-purple-700 i justify-around items-center hidden">
           <div>
@@ -150,42 +149,6 @@ function Register() {
           </form>
         </div>
       </div>
-
-      {/*  */}
-      <form
-        onSubmit={handleSubmit}
-        className="max-w-sm mx-auto mt-20 space-y-4"
-      >
-        <input
-          placeholder="Name"
-          value={form.name}
-          onChange={(e) => setForm({ ...form, name: e.target.value })}
-          className="w-full border p-2"
-        />
-        <input
-          placeholder="Email"
-          value={form.email}
-          onChange={(e) => setForm({ ...form, email: e.target.value })}
-          className="w-full border p-2"
-        />
-        <input
-          placeholder="Password"
-          type="password"
-          value={form.password}
-          onChange={(e) => setForm({ ...form, password: e.target.value })}
-          className="w-full border p-2"
-        />
-        <input
-          placeholder="Profile link"
-          type="text"
-          value={form.profile}
-          onChange={(e) => setForm({ ...form, profile: e.target.value })}
-          className="w-full border p-2"
-        />
-        <button className="bg-green-500 text-white w-full py-2">
-          Register
-        </button>
-      </form>
     </>
   );
 }

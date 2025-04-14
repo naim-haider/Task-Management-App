@@ -178,25 +178,6 @@ function Tasks() {
                       </div>
                     </div>
                   </div>
-
-                  {/*  */}
-                  {/* <div>
-                    <strong>{task.title}</strong> – {task.status}
-                  </div>
-                  <div className="space-x-2">
-                    <button
-                      onClick={() => handleToggleStatus(task)}
-                      className="text-sm bg-yellow-400 px-2 py-1 rounded"
-                    >
-                      Toggle
-                    </button>
-                    <button
-                      onClick={() => handleDelete(task._id)}
-                      className="text-sm bg-red-500 text-white px-2 py-1 rounded"
-                    >
-                      Delete
-                    </button>
-                  </div> */}
                 </div>
               ))}
             </div>
