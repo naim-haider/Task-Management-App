@@ -122,7 +122,7 @@ function Register() {
               >
                 <path
                   fillRule="evenodd"
-                  d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z"
+                  d="M10 2a4 4 0 100 8 4 4 0 000-8zM2 16a8 8 0 0116 0H2z"
                   clipRule="evenodd"
                 />
               </svg>
