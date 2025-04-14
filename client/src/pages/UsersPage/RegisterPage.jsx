@@ -132,6 +132,7 @@ function Register() {
                 value={form.profile}
                 onChange={(e) => setForm({ ...form, profile: e.target.value })}
                 placeholder="Profile URL"
+                required
               />
             </div>
             <button
